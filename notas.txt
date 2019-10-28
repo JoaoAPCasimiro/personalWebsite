@@ -1,0 +1,23 @@
+a fazer: 
+- ver que partes do site manter
+- ver cores 
+- links para redes sociais
+
+partes a manter:
+
+about
+experiencia\ projetos pessoais - trabalhos gerais 
+educaçao ipl programaçao - curso de marketing digital da google presencial
+skills- falar um pouco das ferrramentas que gosto mais , c#, C , php, java. html, css ,js.
+sobre o que gosto de fazer alem da programação - volley, exercicio, desporto de competição, escrever ,ler...
+
+cores : 
+
+F58A1F
+84B07F
+E0A02A
+D19029
+C9301A
+
+
+
