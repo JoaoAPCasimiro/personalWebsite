@@ -96,7 +96,10 @@
             </p>
             <!-- vao poder carregar nos items e aparece um pop up com prints do programa a funcionar-->
             <ul class="list-group">
-              <li class="list-group-item">Programa de gestão de passwords</li>
+              <li class="list-group-item">
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Programa de gestão de passwords</button>
+              </li>
               <li class="list-group-item">Website estilo imbd para filmes e séries</li>
               <li class="list-group-item">Programa de gestão de uma oficina com serviços de aluguer e compra de automóveis</li>
               <li class="list-group-item">Implementação de uma versão simplificada da base de dados do site <a href="https://www.degiro.pt/" >degiro.pt </a></li>
@@ -107,6 +110,25 @@
           </div>
         </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
         <!--
         para nao perder a <template
         </template>
