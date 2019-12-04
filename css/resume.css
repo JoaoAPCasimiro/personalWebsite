@@ -175,3 +175,7 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.carousel-control-next,.carousel-control-prev {
+    filter: invert(100%);
+}

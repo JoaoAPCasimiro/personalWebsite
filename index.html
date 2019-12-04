@@ -105,28 +105,28 @@
             <ul class="list-group">
               <li class="list-group-item">
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gestaoPasswordModal">
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#gestaoPasswordModal">
                               Programa de gestão de passwords</button>
               </li>
               <li class="list-group-item">
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#movieManagerModal">
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#movieManagerModal">
                               Website estilo imbd para filmes e séries</button>
               </li>
               <li class="list-group-item">
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gestaoPasswordModal">
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#gestaoOficinaModal">
                               Programa de gestão de uma oficina com serviços de aluguer e compra de automóveis</button>
               </li>
               <li class="list-group-item">
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gestaoPasswordModal">
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#bdDegiroModal">
                           Implementação de uma versão simplificada da base de dados do site degiro.pt </button>
               </li>
               <li class="list-group-item">
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gestaoPasswordModal">
-                          Criação de uma webapp e aplicação móvel para realização de eventos</button>
+                <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#gofishModal">
+                          Webapp para jogo do peixinho</button>
               </li>
 
             </ul>
@@ -134,29 +134,6 @@
             <h4>A jornada começa aqui!</h4>
           </div>
         </div>
-
-
-        <div class="modal fade" id="websiteFilmesSeriesModal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <img src="prints/gestao_passwords.png" />
-            </div>
-          </div>
-        </div>
-
-        <div class="modal fade" id="gestaoOficinaModal" role="dialog">
-          <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-              <img src="prints/gestao_passwords.png" />
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </section>
 
@@ -274,7 +251,7 @@
 
   </div>
 
-  <!-- Modal -->
+  <!-- Modal gestaoPasswords -->
   <div class="modal fade" id="gestaoPasswordModal" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
@@ -315,8 +292,7 @@
       </div>
     </div>
   </div>
-
-  <!-- Modal -->
+  <!-- Modal movieManager-->
   <div class="modal fade" id="movieManagerModal" role="dialog">
     <div class="modal-dialog">
       <!-- Modal content-->
@@ -334,10 +310,10 @@
           <!-- The slideshow -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="img-fluid" src="prints/The_Movie_Manager.jpg" alt="inicial">
+              <img class="img-fluid" src="prints/The_Movie_Manager_small.jpg" alt="inicial">
             </div>
             <div class="carousel-item">
-              <img class="img-fluid" src="prints/The_Movie_Manager_atual.jpg" alt="nos cinemas">
+              <img class="img-fluid" src="prints/The_Movie_Manager_atual_small.jpg" alt="nos cinemas">
             </div>
             <div class="carousel-item">
               <img class="img-fluid" src="prints/The_Movie_Manager_favoritos.jpg" alt="favoritos">
@@ -345,15 +321,130 @@
           </div>
 
           <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#movieManager" data-slide="prev">
+          <a class="carousel-control-prev-black" href="#movieManager" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#movieManager" data-slide="next">
+          <a class="carousel-control-next-black" href="#movieManager" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
         </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal gestaoOficina-->
+  <div class="modal fade" id="gestaoOficinaModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="gestaoOficina" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#gestaoOficina" data-slide-to="0" class="active"></li>
+            <li data-target="#gestaoOficina" data-slide-to="1"></li>
+            <li data-target="#gestaoOficina" data-slide-to="2"></li>
+          </ul>
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-fluid" src="prints/gestao_stand.png" alt="ecra inicial">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/gestao_stand2.png" alt="clientes">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/gestao_stand3.png" alt="oficina">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/gestao_stand4.png" alt="serviços">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/gestao_stand5.png" alt="vendas">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/gestao_stand6.png
 
+              " alt="aluguer">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev-black" href="#gestaoOficina" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next-black" href="#gestaoOficina" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal base de dados degiro-->
+  <div class="modal fade" id="bdDegiroModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="bdDegiro" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#bdDegiro" data-slide-to="0" class="active"></li>
+            <li data-target="#bdDegiro" data-slide-to="1"></li>
+            <li data-target="#bdDegiro" data-slide-to="2"></li>
+          </ul>
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-fluid" src="prints/DER.jpg" alt="Esquema DER da base de dados">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev-black" href="#bdDegiro" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next-black" href="#bdDegiro" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal go fish-->
+  <div class="modal fade" id="gofishModal" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="gofish" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#gofish" data-slide-to="0" class="active"></li>
+            <li data-target="#gofish" data-slide-to="1"></li>
+            <li data-target="#gofish" data-slide-to="2"></li>
+          </ul>
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-fluid" src="prints/GoFish_jogar_inicial.png" alt="Esquema DER da base de dados">
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="prints/GoFish_jogar.png" alt="Esquema DER da base de dados">
+            </div>
+            <div class="carousel-item ">
+              <img class="img-fluid" src="prints/GoFish_buscar.png" alt="Esquema DER da base de dados">
+            </div>
+            <div class="carousel-item ">
+              <img class="img-fluid" src="prints/GoFish_bot.png" alt="Esquema DER da base de dados">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#gofish" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#gofish" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
