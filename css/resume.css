@@ -179,3 +179,12 @@ a:hover, a:focus, a:active {
 .carousel-control-next,.carousel-control-prev {
     filter: invert(100%);
 }
+
+h1{
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+}
+
+.skills{
+  font-family:Saira Extra Condensed;
+}
